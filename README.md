@@ -1,5 +1,4 @@
 # The Collaborative Word List
-coming soon ...
 
 ## Contributing
 
