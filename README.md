@@ -16,7 +16,7 @@ coming soon ...
 
 After a push to any branch (including `main`), an automatic trigger will run the following on any changes:
 
-* Ensure the list is the correct format (above)
+* Ensure the list is the correct format (below)
 * Ensure there are no duplicates
 * Capitalize all words and remove trailing/leading spaces
 * Sort the list by score descending, and then alphabetically within a given score
