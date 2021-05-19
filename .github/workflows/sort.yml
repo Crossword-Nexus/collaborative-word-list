@@ -1,0 +1,29 @@
+name: Auto-fixes
+
+on: [push]
+
+jobs:
+  sort:
+    name: Test and sort dictionary
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Run pre-commit
+        run: |
+          script/sort.py
+
+      - name: Push commit
+        run: |
+          git config --global user.name 'Github Action Bot'
+          git config --global user.email '<>'
+          # Commit only if there are changes
+          git diff --quiet && git diff --staged --quiet || git commit -am 'Automated fixes to dictionary'
+          git push
