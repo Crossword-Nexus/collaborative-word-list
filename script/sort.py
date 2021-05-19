@@ -18,7 +18,7 @@ def read():
                 print(f"ERROR -- Missing score for {row['word']} on line {index + 1}")
                 error = True
                 continue
-            row['score'] = int(row['score'])
+            row['score'] = int(row['score'].strip())
             row['word'] = row['word'].upper().strip()
             if row['word'] in word_to_line:
                 print(f"ERROR -- Word {row['word']} on lines ({word_to_line[row['word']]}, {index + 1})" \
