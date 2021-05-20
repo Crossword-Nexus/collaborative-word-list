@@ -1,5 +1,7 @@
 # The Collaborative Word List
 
+The collaborative word list is a scored word list for crossword constructors.  Help us make it the best possible list by joining and contributing your words and scores.
+
 ## Contributing
 
 1. Clone the repo locally
