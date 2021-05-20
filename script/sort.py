@@ -34,7 +34,7 @@ def read():
         return parsed
 
 def sort(words):
-    return sorted(words, key=lambda x: (-x['score'], x['word']))
+    return sorted(words, key=lambda x: x['word'])
 
 def write(sorted_words):
     with open(FILENAME, 'w') as f:
