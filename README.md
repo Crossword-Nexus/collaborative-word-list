@@ -18,7 +18,7 @@ After a push to any branch (including `main`), an automatic trigger will run the
 * Ensure the list is the correct format (below)
 * Ensure there are no duplicates
 * Capitalize all words and remove trailing/leading spaces
-* Sort the list by score descending, and then alphabetically within a given score
+* Sort the list alphabetically
 * Run a quick test to make sure it's roughly the size expected (> 425,000 entries)
 
 If the above checks fails, the action as a whole will fail and the changes can't be merged.
