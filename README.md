@@ -4,6 +4,18 @@ The collaborative word list is a scored word list for crossword constructors.  H
 
 ## Contributing
 
+If you'd like to contribute, please e-mail us with a request to be added as a contributor to the repository.
+
+### Using GitHub Desktop
+1. Clone the repo locally.  The easiest is to choose "clone by URL" and using this URL.
+2. Create a new branch.  It can really be named anything, but the easiest is to use your name.
+3. Make your changes to the word list.
+4. Commit your changes to the branch.  Add a little note if you'd like to let us know what you've changed.
+5. Click the "Push Origin" button to push your changes to the remote branch.
+6. 
+
+### Using the GitHub command line interface
+
 1. Clone the repo locally
 2. Checkout a new branch: `git checkout -b arbitrary-branch-name`
 3. Make your changes to `xwordlist.dict`
