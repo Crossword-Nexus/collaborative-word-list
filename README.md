@@ -12,7 +12,10 @@ If you'd like to contribute, please e-mail us with a request to be added as a co
 3. Make your changes to the word list.
 4. Commit your changes to the branch.  Add a little note if you'd like to let us know what you've changed.
 5. Click the "Push Origin" button to push your changes to the remote branch.
-6. 
+6. Click the "Create Pull Request" button to open a browser window with the new pull request.
+7. Click the green button to merge the pull request.
+
+Once the initial steps are done, you can either keep your branch open or make a new branch every time.  If the latter, you'll have to update from main every time before you start making changes to your list, or you risk having tons of conflicts that will be impossible to resolve.
 
 ### Using the GitHub command line interface
 
