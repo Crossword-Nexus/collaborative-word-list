@@ -4,7 +4,10 @@ The collaborative word list is a scored word list for crossword constructors.  H
 
 ## Contributing
 
-If you'd like to contribute, please e-mail us with a request to be added as a contributor to the repository.
+If you'd like to contribute, please e-mail us (crosswordnexus@gmail.com) with a request to be added as a contributor to the repository.
+
+The best way to get started is to watch this YouTube video which should teach you everything you need to know.
+https://www.youtube.com/watch?v=n0py3nm4itI
 
 ### Using GitHub Desktop
 1. Clone the repo locally.  The easiest is to choose "clone by URL" and using this URL.
