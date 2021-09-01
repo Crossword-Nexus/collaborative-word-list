@@ -2,6 +2,9 @@
 
 The collaborative word list is a scored word list for crossword constructors.  Help us make it the best possible list by joining and contributing your words and scores.
 
+Want to download the list without contributing?  No problem, it's free for everyone.  You can get it here
+https://raw.githubusercontent.com/Crossword-Nexus/collaborative-word-list/main/xwordlist.dict
+
 ## Contributing
 
 If you'd like to contribute, please e-mail us (crosswordnexus@gmail.com) with a request to be added as a contributor to the repository.
